@@ -1,15 +1,10 @@
 import json
+from constants import TUNING_LABELS
 
 def load_guitar_analysis(filepath):
     """Load the guitar analysis JSON file."""
     with open(filepath, 'r') as file:
         return json.load(file)
-
-TUNING_LABELS = {
-    "Standard": (64, 59, 55, 50, 45, 40),
-    "Drop D": (64, 59, 55, 50, 45, 38),
-    "Open D": (62, 57, 54, 50, 45, 38),
-}
 
 def filter_guitars_by_tuning_label(data, tuning_label):
     """Filter guitars using a specific tuning label."""

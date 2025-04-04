@@ -81,13 +81,8 @@ def process_dataset_folder(dataset_folder, output_json):
     with open('failed_files.txt', 'w') as fail_file:
         for failed_filepath in failed_filepaths:
             fail_file.write(f"{failed_filepath}\n")
-            
+
     print(f"Analysis saved to {output_json}")
     print(f"Total files analyzed: {file_count}")
     print(f"Total files failed: {fail_file_count}")
     print(f"Total files processed: {file_count + fail_file_count}")
-
-# Example usage:
-dataset_folder = "dataset"
-output_json = "guitar_analysis.json"
-process_dataset_folder(dataset_folder, output_json)
