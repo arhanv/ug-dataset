@@ -1,0 +1,27 @@
+dataset/Open D/Metal/Slaughter - Old Man.gp
+dataset/Open D/Pop/Tamino - Verses.gpx
+dataset/Open D/Pop/Susanne Sundfør - Gravity.gpx
+dataset/Drop D/Folk/Alexi Murdoch - All My Days.gp3
+dataset/Drop D/Folk/Richard Thompson - Beeswing.gpx
+dataset/Drop D/Folk/Hannes Wader - Heute Hier Morgen Dort.gpx
+dataset/Drop D/Folk/Misc Traditional - Spatter The Dew.gp
+dataset/Drop D/Metal/Opeth - Porcelain Heart (ver 2 by xFilth).gp
+dataset/Drop D/Blues/Joseph Spence - Glory Glory.gp
+dataset/Drop D/Blues/B.B. King - Get Out Of My Back Woman.gpx
+dataset/Drop D/Blues/Rory Block - Big Road Blues.gp
+dataset/Drop D/Blues/Hugh Laurie - The Firing Song.gpx
+dataset/Drop D/Blues/Eric Bibb - Needed Time.gp3
+dataset/Drop D/Pop/Jason Mraz - I Wont Give Up.gpx
+dataset/Drop D/Pop/Bruno Mars - Just The Way You Are (ver 3 by Mr. Heater).gp5
+dataset/Drop D/Jazz/Sarah Vaughan - My Favorite Things.gpx
+dataset/Drop D/Jazz/Pat Metheny - American Garage.gpx
+dataset/Drop D/Jazz/Miles Davis - All Blues (ver 3 by krassalexx).gpx
+dataset/Drop D/Jazz/Duke Ellington - Drop Me Off In Harlem.gp
+dataset/Drop D/Jazz/George Gershwin - I Loves You Porgy.gp
+dataset/Standard/Rock/Red Hot Chili Peppers - Californication (ver 3).gpx
+dataset/Standard/Rock/Queen - Bohemian Rhapsody.gpx
+dataset/Standard/Rock/Lynyrd Skynyrd - Sweet Home Alabama.gpx
+dataset/Standard/Rock/Pink Floyd - Comfortably Numb.gp
+dataset/Standard/Metal/Iron Maiden - Fear Of The Dark.gp
+dataset/Standard/Metal/Megadeth - Symphony Of Destruction (ver 6 by Hanger.18).gp
+dataset/Standard/Metal/DragonForce - Through The Fire And Flames.gpx

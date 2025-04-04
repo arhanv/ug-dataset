@@ -14,7 +14,7 @@ def analyze_guitarpro_file(filepath):
             "tracks": []
         }
 
-        # Loop through the traks in demo
+        # Loop through the tracks in the demo
         for track in demo.tracks:
             track_info = {
                 "name": track.name,
@@ -32,40 +32,62 @@ def analyze_guitarpro_file(filepath):
                         # Record string and fret usage
                         for note in beat.notes:
                             string_fret_frequency[note.string][note.value] += 1
-                        
-                        # Record chords
-                        # if beat.chord:
-                        #     track_info["chords"].append(beat.chord.name)
-            
+
             # Convert Counter to a regular dictionary for JSON serialization
             track_info["string_fret_frequency"] = {
                 string: dict(frets) for string, frets in string_fret_frequency.items()
             }
 
             analysis["tracks"].append(track_info)
-        
+
         return analysis
     except Exception as e:
         print(f"Error processing file {filepath}: {e}")
         return None
 
-def process_folder(folder_path, output_json):
-    """Process all Guitar Pro files in a folder and save the analysis to a JSON file."""
+def process_dataset_folder(dataset_folder, output_json):
+    """Process the entire dataset folder and save the analysis to a JSON file."""
     results = []
-    for root, _, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith(('.gp3', '.gp4', '.gp5', '.gpx', '.gp')):
-                filepath = os.path.join(root, file)
-                print(f"Processing file: {filepath}")
-                analysis = analyze_guitarpro_file(filepath)
-                if analysis:
-                    results.append(analysis)
-    
+    file_count = 0  # Counter for the number of files analyzed
+    fail_file_count = 0
+    failed_filepaths = []
+    for tuning_folder in os.listdir(dataset_folder):
+        tuning_path = os.path.join(dataset_folder, tuning_folder)
+        if os.path.isdir(tuning_path):
+            for genre_folder in os.listdir(tuning_path):
+                genre_path = os.path.join(tuning_path, genre_folder)
+                if os.path.isdir(genre_path):
+                    for root, _, files in os.walk(genre_path):
+                        for file in files:
+                            if file.endswith(('.gp3', '.gp4', '.gp5', '.gpx', '.gp')):
+                                filepath = os.path.join(root, file)
+                                print(f"Processing file: {filepath}")
+                                analysis = analyze_guitarpro_file(filepath)
+                                if analysis:
+                                    # Add tuning and genre information to the analysis
+                                    for track in analysis["tracks"]:
+                                        track["tuning_folder"] = tuning_folder
+                                        track["genre"] = genre_folder
+                                    results.append(analysis)
+                                    file_count += 1  # Increment the file counter
+                                else:
+                                    fail_file_count += 1
+                                    failed_filepaths.append(filepath)
+
     # Save results to JSON
     with open(output_json, 'w') as json_file:
         json.dump(results, json_file, indent=4)
-    print(f"Analysis saved to {output_json}")
 
-# folder_path = "Open D/Rock" 
-# output_json = "guitar_analysis.json"
-# process_folder(folder_path, output_json)
+    with open('failed_files.txt', 'w') as fail_file:
+        for failed_filepath in failed_filepaths:
+            fail_file.write(f"{failed_filepath}\n")
+            
+    print(f"Analysis saved to {output_json}")
+    print(f"Total files analyzed: {file_count}")
+    print(f"Total files failed: {fail_file_count}")
+    print(f"Total files processed: {file_count + fail_file_count}")
+
+# Example usage:
+dataset_folder = "dataset"
+output_json = "guitar_analysis.json"
+process_dataset_folder(dataset_folder, output_json)
