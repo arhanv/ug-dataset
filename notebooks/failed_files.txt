@@ -1,34 +1,60 @@
-../dataset/Open D/Metal/Slaughter - Old Man.gp
-../dataset/Open D/Pop/Tamino - Verses.gpx
-../dataset/Open D/Pop/Susanne Sundfør - Gravity.gpx
+../dataset/Drop D/Blues/B.B. King - Get Out Of My Back Woman.gpx
+../dataset/Drop D/Blues/Eric Bibb - Needed Time.gp3
+../dataset/Drop D/Blues/Hugh Laurie - The Firing Song.gpx
+../dataset/Drop D/Blues/Joseph Spence - Glory Glory.gp
+../dataset/Drop D/Blues/Rory Block - Big Road Blues.gp
 ../dataset/Drop D/Folk/Alexi Murdoch - All My Days.gp3
-../dataset/Drop D/Folk/Richard Thompson - Beeswing.gpx
 ../dataset/Drop D/Folk/Hannes Wader - Heute Hier Morgen Dort.gpx
 ../dataset/Drop D/Folk/Misc Traditional - Spatter The Dew.gp
-../dataset/Drop D/Metal/Opeth - Porcelain Heart (ver 2 by xFilth).gp
-../dataset/Drop D/Blues/Joseph Spence - Glory Glory.gp
-../dataset/Drop D/Blues/B.B. King - Get Out Of My Back Woman.gpx
-../dataset/Drop D/Blues/Rory Block - Big Road Blues.gp
-../dataset/Drop D/Blues/Hugh Laurie - The Firing Song.gpx
-../dataset/Drop D/Blues/Eric Bibb - Needed Time.gp3
-../dataset/Drop D/Pop/Jason Mraz - I Wont Give Up.gpx
-../dataset/Drop D/Pop/Bruno Mars - Just The Way You Are (ver 3 by Mr. Heater).gp5
-../dataset/Drop D/Jazz/Sarah Vaughan - My Favorite Things.gpx
-../dataset/Drop D/Jazz/Pat Metheny - American Garage.gpx
-../dataset/Drop D/Jazz/Miles Davis - All Blues (ver 3 by krassalexx).gpx
+../dataset/Drop D/Folk/Richard Thompson - Beeswing.gpx
 ../dataset/Drop D/Jazz/Duke Ellington - Drop Me Off In Harlem.gp
 ../dataset/Drop D/Jazz/George Gershwin - I Loves You Porgy.gp
-../dataset/Standard/Rock/Red Hot Chili Peppers - Californication (ver 3).gpx
-../dataset/Standard/Rock/Queen - Bohemian Rhapsody.gpx
-../dataset/Standard/Rock/Lynyrd Skynyrd - Sweet Home Alabama.gpx
-../dataset/Standard/Rock/Pink Floyd - Comfortably Numb.gp
+../dataset/Drop D/Jazz/Miles Davis - All Blues (ver 3 by krassalexx).gpx
+../dataset/Drop D/Jazz/Pat Metheny - American Garage.gpx
+../dataset/Drop D/Jazz/Sarah Vaughan - My Favorite Things.gpx
+../dataset/Drop D/Metal/Opeth - Porcelain Heart (ver 2 by xFilth).gp
+../dataset/Drop D/Metal/._An Endless Sporadic - Impulse (ver 3 by neutralist).gp5
+../dataset/Drop D/Pop/Bruno Mars - Just The Way You Are (ver 3 by Mr. Heater).gp5
+../dataset/Drop D/Pop/Jason Mraz - I Wont Give Up.gpx
+../dataset/Drop D/Rock/._Linkin Park - What Ive Done (ver 7 by igus).gp4
+../dataset/Open D/Metal/Slaughter - Old Man.gp
+../dataset/Open D/Pop/Susanne Sundfør - Gravity.gpx
+../dataset/Open D/Pop/Tamino - Verses.gpx
+../dataset/Standard/Metal/DragonForce - Through The Fire And Flames.gpx
 ../dataset/Standard/Metal/Iron Maiden - Fear Of The Dark.gp
 ../dataset/Standard/Metal/Megadeth - Symphony Of Destruction (ver 6 by Hanger.18).gp
-../dataset/Standard/Metal/DragonForce - Through The Fire And Flames.gpx
-../dataset/Drop C/Rock/Nails - Unsilent Death.gpx
-../dataset/Drop C/Rock/Triggerfinger - Man Down.gpx
-../dataset/Drop C/Rock/Steve Winwood - Cant Find My Way Home.gp
-../dataset/Drop C/Metal/Bullet For My Valentine - Waking The Demon.gpx
+../dataset/Standard/Rock/Lynyrd Skynyrd - Sweet Home Alabama.gpx
+../dataset/Standard/Rock/Pink Floyd - Comfortably Numb.gp
+../dataset/Standard/Rock/Queen - Bohemian Rhapsody.gpx
+../dataset/Standard/Rock/Red Hot Chili Peppers - Californication (ver 3).gpx
+../dataset/Drop C/Pop/._Stromae - Carmen.gp5
+../dataset/Drop C/Metal/._Disturbed - Stricken.gp4
+../dataset/Drop C/Metal/._As I Lay Dying - Confined.gp4
 ../dataset/Drop C/Metal/Killswitch Engage - My Curse (ver 5 by KSE21).gp
-../dataset/Drop C/Metal/Periphery - Marigold.gpx
+../dataset/Drop C/Metal/._Killswitch Engage - My Curse (ver 5 by KSE21).gp
+../dataset/Drop C/Metal/._System Of A Down - Aerials (ver 5 by Jonjy2).gp5
 ../dataset/Drop C/Metal/Blood Incantation - The Message Tablet I.gp
+../dataset/Drop C/Metal/._Blood Incantation - The Message Tablet I.gp
+../dataset/Drop C/Metal/Bullet For My Valentine - Waking The Demon.gpx
+../dataset/Drop C/Metal/._Bullet For My Valentine - Waking The Demon.gpx
+../dataset/Drop C/Metal/._Deftones - Rosemary (ver 2 by Bilawal).gp5
+../dataset/Drop C/Metal/._Mastodon - The Motherload (ver 3 by jonah946).gp5
+../dataset/Drop C/Metal/._Periphery - Marigold.gpx
+../dataset/Drop C/Metal/._Children of Bodom - Sixpounder (ver 7 by daniel.lammich).gp5
+../dataset/Drop C/Metal/Periphery - Marigold.gpx
+../dataset/Drop C/Metal/._The Faceless - Legions Of The Serpent (ver 3 by EffYouSeeKayyyy).gp5
+../dataset/Drop C/Rock/._Skillet - Monster.gp5
+../dataset/Drop C/Rock/._Alter Bridge - Shed My Skin.gp5
+../dataset/Drop C/Rock/._Thrice - Cold Cash And Colder Hearts (ver 2 by jpodosek).gp5
+../dataset/Drop C/Rock/._Three Days Grace - Animal I Have Become (ver 3 by mike_ike_ke_e15).gp5
+../dataset/Drop C/Rock/._A Day to Remember - City Of Ocala.gp5
+../dataset/Drop C/Rock/._Neck Deep - Gold Steps.gp5
+../dataset/Drop C/Rock/._Mustasch - Down In Black.gp4
+../dataset/Drop C/Rock/._Extreme - Midnight Express.gp3
+../dataset/Drop C/Rock/._Triggerfinger - Man Down.gpx
+../dataset/Drop C/Rock/._Seether - Like Suicide (ver 2 by Fishcat).gp5
+../dataset/Drop C/Rock/._Nails - Unsilent Death.gpx
+../dataset/Drop C/Rock/Triggerfinger - Man Down.gpx
+../dataset/Drop C/Rock/Nails - Unsilent Death.gpx
+../dataset/Drop C/Rock/Steve Winwood - Cant Find My Way Home.gp
+../dataset/Drop C/Rock/._Steve Winwood - Cant Find My Way Home.gp
