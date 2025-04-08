@@ -4,3 +4,5 @@ TUNING_LABELS = {
     "Open D": (62, 57, 54, 50, 45, 38),
     "Drop C": (62, 57, 53, 48, 43, 36),
 }
+
+GUITAR_INSTRUMENT_PATH_NUMBERS = [24, 25, 26, 27, 28, 29, 30, 31]
