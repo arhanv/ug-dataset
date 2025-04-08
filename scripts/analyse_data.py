@@ -64,6 +64,7 @@ def process_dataset_folder(dataset_folder, output_json):
                                 print(f"Processing file: {filepath}")
                                 analysis = analyze_guitarpro_file(filepath)
                                 if analysis:
+                                    analysis["filepath"] = filepath # add the filename
                                     # Add tuning and genre information to the analysis
                                     for track in analysis["tracks"]:
                                         track["tuning_folder"] = tuning_folder
