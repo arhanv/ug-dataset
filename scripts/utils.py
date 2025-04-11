@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from constants import TUNING_LABELS
 
 def load_guitar_analysis(filepath):
     """Load the guitar analysis JSON file."""
@@ -32,3 +33,18 @@ def lookup_analysis_for_file(filepath, analysis_data="id_analysis_index.json"):
         print(f"No analysis found for {identifier}.")
         return None
     return analysis_data[identifier]
+
+def get_tuning_name(tuning):
+    """
+    Returns the name of the tuning based on the given tuning values.
+
+    Args:
+        tuning (list or tuple): An array of tuning values.
+
+    Returns:
+        str: The name of the tuning if found, otherwise "Unknown Tuning".
+    """
+    for name, values in TUNING_LABELS.items():
+        if tuple(tuning) == values:
+            return name
+    return "Unknown Tuning"
