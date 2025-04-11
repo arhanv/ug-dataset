@@ -50,7 +50,7 @@ def get_tuning_name(tuning):
             return name
     return "Unknown Tuning"
 
-def setup_nice_plot(textsize=11):
+def setup_nice_plot(textsize=12):
     plt.rcParams.update({
         'font.family': 'serif',
         'font.size': textsize,
