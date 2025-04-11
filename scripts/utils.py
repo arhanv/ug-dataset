@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from constants import TUNING_LABELS
+import matplotlib.pyplot as plt
 
 def load_guitar_analysis(filepath):
     """Load the guitar analysis JSON file."""
@@ -48,3 +49,15 @@ def get_tuning_name(tuning):
         if tuple(tuning) == values:
             return name
     return "Unknown Tuning"
+
+def setup_nice_plot(textsize=11):
+    plt.rcParams.update({
+        'font.family': 'serif',
+        'font.size': textsize,
+        'axes.titlesize': textsize + 1,
+        'axes.labelsize': textsize,
+        'xtick.labelsize': textsize - 1,
+        'ytick.labelsize': textsize - 1,
+        'legend.fontsize': textsize - 1,
+        'figure.titlesize': textsize + 2
+    })
